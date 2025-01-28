@@ -1,7 +1,7 @@
 - 👋 Hi, I’m Samuel Fiifi.
-- 👀 I’m currently a Physics major with passion for *wireless technologies*, *A.I*, and all things *tech*.
+- 👀 Currently a Physics major with passion for *Wireless technologies*, *A.I*, and all things *Tech*.
 - 🧠 I'm all about exploring how technology intersects with the physical world and ideas that revolutionize our everyday lives.
-- 🌱 I am a dedicated learner, ready to explore and share ideas that have the potential of to transform our world.
+- 🌱 I'm a dedicated learner, ready to explore and share ideas that have the potential of to transform our world.
 - 💡  Currently, I am studying C++ as part of my coursework and self-studying *Electrodynamics* and *Signals and Systems*. 
 - 💞️ There is a lot out there revolutionizing our world today, and together we can be part of that revolution.
 - 📫 Let's connect! A great future lies ahead 📊🚀
