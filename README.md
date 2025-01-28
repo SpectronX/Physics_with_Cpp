@@ -1,8 +1,9 @@
-- 👋 Hi, I’m SamuelX77
-- 👀 I’m interested in A.I, Programming and anything tech. Currently a student
-- 🌱 I’m currently getting started on Computational Physics and Signal Analysis, effectively incorporating A.I in my workflow to increase productivity. 
-- 💞️ I’m still learning and would be glad to collaborate on any A.I, Backend-development or software related projects.
-- 📫 You can reach me by email on algorithmicsamuelx@gmail.com, on X - @cyberstarkX
+- 👋 Hi, I’m Samuel Fiifi.
+- 👀 I’m currently a Physics major with interest spanning over wireless technologies, A.I, and basically anything tech. Currently a student
+- 🌱 I am a dedicated learner, ready to explore and share ideas with people.
+- 💡  Currently I am taking some C++ courses as part of my study requirements and self-studying electrodynamics and signals and systems. 
+- 💞️ There is a lot out there revolutionizing our world today, and together we can be part of that revolution.
+- 📫 I am always open so feel free to reach out! A great future ahead 📊🚀
 
 
 <!---
