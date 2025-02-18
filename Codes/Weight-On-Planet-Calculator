@@ -13,14 +13,14 @@ int main(){
 	
 	int planet;
 	cout << "1. Mercury\n" 
-		 << "2. Venus\n"
+	     << "2. Venus\n"
 	     << "3. Earth\n"
-		 << "4. Mars\n"
-		 << "5. Jupiter\n"
-		 << "6. Saturn\n"
-		 << "7. Uranus\n"
-		 << "8. Neptune\n"
-		 << "9. Pluto\n\n";
+	     << "4. Mars\n"
+	     << "5. Jupiter\n"
+	     << "6. Saturn\n"
+	     << "7. Uranus\n"
+	     << "8. Neptune\n"
+	     << "9. Pluto\n\n";
 	
 	cout << "Select your preferred planet in our solar system: ";
 	cin >> planet;
