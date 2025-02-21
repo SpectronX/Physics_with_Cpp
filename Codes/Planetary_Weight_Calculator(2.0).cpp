@@ -14,7 +14,7 @@ int main(){
 	string planets[] = {"Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune", "Pluto\n"};
 	double g[] = {3.70, 8.87, 9.81, 3.71, 24.79, 10.44, 8.69, 11.15, 0.62};
 	string descriptions[] = {
-		    "A small, rocky planet with extreme temperature swings between day and night. With almost no atmosphere, it's a harsh environment.\n",
+	"A small, rocky planet with extreme temperature swings between day and night. With almost no atmosphere, it's a harsh environment.\n",
         "A rocky planet enveloped in a thick, toxic atmosphere. Its surface temperatures are high enough to melt lead, making it extremely inhospitable.\n",
         "Our home - a vibrant, rocky planet with a protective atmosphere and abundant water, supporting a diverse range of life.\n",
         "A cold, dusty planet that shows signs of ancient water flows. It remains a prime candidate for future human exploration and colonization.\n",
