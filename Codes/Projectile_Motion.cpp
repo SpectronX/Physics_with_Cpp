@@ -20,10 +20,10 @@ void ground_launch(double init_velocity, double angle){  //This function is for 
 	
 	//What the function outputs to the user.
 	cout << "\nTime to reach maximum height: " << t_max << "s\n";
-    cout << "Total time of flight: " << t_flight << "s\n";
-    cout << "Maximum height reached: " << max_height << "m\n";
-    cout << "Range of the projectile: " << range << "m\n";
-    cout << "Final velocity before impact: " << fin_velocity << " m/s\n";
+	cout << "Total time of flight: " << t_flight << "s\n";
+	cout << "Maximum height reached: " << max_height << "m\n";
+	cout << "Range of the projectile: " << range << "m\n";
+	cout << "Final velocity before impact: " << fin_velocity << " m/s\n";
 }
 
 void elevated_launch(double init_velocity, double angle, double height){ //This function is for cases where the projectile is launched from a height
@@ -43,10 +43,10 @@ void elevated_launch(double init_velocity, double angle, double height){ //This 
 	
 	//Final output to the user.
 	cout << "\nTime to reach maximum height: " << t_max << "s\n";
-    cout << "Total time of flight: " << t_flight << "s\n";
-    cout << "Maximum height reached: " << max_height << "m\n";
-    cout << "Range of the projectile: " << range << "m\n";
-    cout << "Final velocity before impact: " << fin_velocity << " m/s\n";
+        cout << "Total time of flight: " << t_flight << "s\n";
+        cout << "Maximum height reached: " << max_height << "m\n";
+        cout << "Range of the projectile: " << range << "m\n";
+        cout << "Final velocity before impact: " << fin_velocity << " m/s\n";
 
 }
 
