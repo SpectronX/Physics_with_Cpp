@@ -79,10 +79,10 @@ int main(){
 	cout << " -------------------------------------------------------------------------------" << endl; 
 	
 	cout << "Choose a projectile motion case.\n"
-		 << "\t1. A projectile that is launched from the ground\n"
-		 << "\t2. A projectile that is launched from an elevated position\n"
-		 << "\t3. A projectile that is launched horizontally\n\n"
-		 << "Enter a choice (1-3): ";
+	     << "\t1. A projectile that is launched from the ground\n"
+	     << "\t2. A projectile that is launched from an elevated position\n"
+     	     << "\t3. A projectile that is launched horizontally\n\n"
+	     << "Enter a choice (1-3): ";
 		 
 	cin >> ans;
 	
