@@ -104,6 +104,8 @@ int main(){
 		cout << "Enter the initial velocity and the height of the platform: ";
 		cin >> velocity >> height;
 		horizontal_launch(velocity, height);
+	} else {
+		cout << "Choice out of range.";
 	}
 	
 	return 0;
