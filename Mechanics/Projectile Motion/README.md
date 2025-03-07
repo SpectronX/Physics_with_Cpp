@@ -36,5 +36,3 @@ To also practice some C++ concepts, I decided to incorporate a user-defined libr
 - A **source file (`.cpp`)** containing the function definitions.
 - A **header file (`.h`)** storing the function prototypes.
 - A **main program** that integrates these components to simulate projectile motion with drag.
-
-More details and the actual code implementation will be added soon.
