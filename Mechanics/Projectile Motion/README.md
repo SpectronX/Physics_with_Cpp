@@ -15,20 +15,20 @@ For projectile motion with linear drag, the following equations govern the motio
 
 1. **Velocity Components as a Function of Time**:
    \$[ v_x(t) = v_{x0} e^{-t/\tau} \]$
-   \[ v_y(t) = \left( v_{y0} + g \tau \right) e^{-t/\tau} - g\tau \]
+   \$[ v_y(t) = \left( v_{y0} + g \tau \right) e^{-t/\tau} - g\tau \]$
 
 2. **Position Components as a Function of Time**:
-   \[ x(t) = v_{x0} \tau \left( 1 - e^{-t/\tau} \right) \]
-   \[ y(t) = \left( v_{y0} + g\tau \right) \tau \left( 1 - e^{-t/\tau} \right) - g\tau t \]
+   \$[ x(t) = v_{x0} \tau \left( 1 - e^{-t/\tau} \right) \]$
+   \$[ y(t) = \left( v_{y0} + g\tau \right) \tau \left( 1 - e^{-t/\tau} \right) - g\tau t \]$
 
 3. **Time of Flight**:
-   Solving for when \( y = 0 \) yields an equation for total flight time that must be solved numerically.
+   Solving for when \$( y = 0 \)$ yields an equation for total flight time that must be solved numerically.
 
 4. **Range of the Projectile**:
-   \[ R = \frac{v_{x0} \tau}{g} \left( v_{y0} + g\tau \right) \]
+   \$[ R = \frac{v_{x0} \tau}{g} \left( v_{y0} + g\tau \right) \]$
 
 5. **Maximum Height**:
-   \[ h_{max} = \frac{(v_{y0} + g\tau)^2}{2g} \]
+   \$[ h_{max} = \frac{(v_{y0} + g\tau)^2}{2g} \]$
 
 ## Implementation
 To also practice some C++ concepts, I decided to incorporate a user-defined library for the calculations. The implementation consists of:
