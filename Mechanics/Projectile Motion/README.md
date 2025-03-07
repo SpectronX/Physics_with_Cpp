@@ -14,7 +14,7 @@ This version of the code for projectile motion accounts for drag forces, making 
 For projectile motion with linear drag, the following equations govern the motion:
 
 1. **Velocity Components as a Function of Time**:
-   \[ v_x(t) = v_{x0} e^{-t/\tau} \]
+   \[$ v_x(t) = v_{x0} e^{-t/\tau} $\]
    \[ v_y(t) = \left( v_{y0} + g \tau \right) e^{-t/\tau} - g\tau \]
 
 2. **Position Components as a Function of Time**:
