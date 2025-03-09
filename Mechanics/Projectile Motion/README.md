@@ -30,7 +30,7 @@ For projectile motion with linear drag, the following equations govern the motio
 5. **Maximum Height**:
    \$[ h_{max} = \frac{(v_{y0} + g\tau)^2}{2g} \]$
 
-### Time Constant (\(\tau\)) in Projectile Motion with Linear Drag
+### Time Constant (\$(\tau\))$ in Projectile Motion with Linear Drag
 
 In this simulation, we introduce the **time constant** (\(\tau\)) to account for the effects of air resistance. The time constant is given by:
 
