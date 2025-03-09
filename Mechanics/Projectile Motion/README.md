@@ -58,7 +58,7 @@ where:
 $\beta = 0.392 C_d \rho$
 \]
 
-For air at sea level (\$(\rho = 1.225 \, \text{kg/m}^3\))$ and a sphere with \($ C_d = 0.47 \)$, we approximate:
+For air at sea level (\$(\rho = 1.225 \, \text{kg/m}^3\))$ and a sphere with $\( C_d = 0.47 \)$, we approximate:
 
 \[
 $\beta \approx 0.226 \, \text{kg/m·s}$
