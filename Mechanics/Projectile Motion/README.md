@@ -30,6 +30,49 @@ For projectile motion with linear drag, the following equations govern the motio
 5. **Maximum Height**:
    \$[ h_{max} = \frac{(v_{y0} + g\tau)^2}{2g} \]$
 
+### Time Constant (\(\tau\)) in Projectile Motion with Linear Drag
+
+In this simulation, we introduce the **time constant** (\(\tau\)) to account for the effects of air resistance. The time constant is given by:
+
+\[
+\tau = \frac{m}{b}
+\]
+
+where:
+- \(m\) is the mass of the projectile,
+- \(b\) is the drag coefficient, which can be expressed as:
+
+\[
+b = \frac{1}{2} C_d \rho A
+\]
+
+For a **spherical projectile**, the drag coefficient \( b \) can also be written as:
+
+\[
+b = \beta D
+\]
+
+where:
+
+\[
+\beta = 0.392 C_d \rho
+\]
+
+For air at sea level (\(\rho = 1.225 \, \text{kg/m}^3\)) and a sphere with \( C_d = 0.47 \), we approximate:
+
+\[
+\beta \approx 0.226 \, \text{kg/m·s}
+\]
+
+Thus, the time constant for a spherical projectile in air is:
+
+\[
+\tau = \frac{m}{0.226 D}
+\]
+
+This parameter plays a crucial role in the motion equations by influencing the velocity decay due to drag forces.
+
+
 ## Implementation
 To also practice some C++ concepts, I decided to incorporate a user-defined library for the calculations. The implementation consists of:
 
