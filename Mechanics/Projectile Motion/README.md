@@ -32,10 +32,10 @@ For projectile motion with linear drag, the following equations govern the motio
 
 ### Time Constant (\$(\tau\))$ in Projectile Motion with Linear Drag
 
-In this simulation, we introduce the **time constant** (\(\tau\)) to account for the effects of air resistance. The time constant is given by:
+In this simulation, we introduce the **time constant** (\$(\tau\))$ to account for the effects of air resistance. The time constant is given by:
 
 \[
-\tau = \frac{m}{b}
+$\tau = \frac{m}{b}$
 \]
 
 where:
