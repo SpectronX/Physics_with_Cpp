@@ -43,31 +43,31 @@ where:
 - \(b\) is the drag coefficient, which can be expressed as:
 
 \[
-b = \frac{1}{2} C_d \rho A
+$b = \frac{1}{2} C_d \rho A$
 \]
 
 For a **spherical projectile**, the drag coefficient \( b \) can also be written as:
 
 \[
-b = \beta D
+$b = \beta D$
 \]
 
 where:
 
 \[
-\beta = 0.392 C_d \rho
+$\beta = 0.392 C_d \rho$
 \]
 
-For air at sea level (\(\rho = 1.225 \, \text{kg/m}^3\)) and a sphere with \( C_d = 0.47 \), we approximate:
+For air at sea level (\$(\rho = 1.225 \, \text{kg/m}^3\))$ and a sphere with \($ C_d = 0.47 \)$, we approximate:
 
 \[
-\beta \approx 0.226 \, \text{kg/m·s}
+$\beta \approx 0.226 \, \text{kg/m·s}$
 \]
 
 Thus, the time constant for a spherical projectile in air is:
 
 \[
-\tau = \frac{m}{0.226 D}
+$\tau = \frac{m}{0.226 D}$
 \]
 
 This parameter plays a crucial role in the motion equations by influencing the velocity decay due to drag forces.
