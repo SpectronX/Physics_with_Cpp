@@ -28,7 +28,7 @@ For projectile motion with linear drag, the following equations govern the motio
    \$[R \approx R_{\text{vac}} \left( 1 - \frac{4}{3} \frac{V_{y0}}{\tau g} \right)]$
 
 5. **Maximum Height**:
-   \$[ h_{max} = \frac{(v_{y0} + g\tau)^2}{2g} \]$
+   \$[H = \left( (V_{i} \sin\theta) + g\tau \right) \tau \left( 1 - e^{-T/\tau} \right) - g\tau T\]$
 
 **Time Constant (\$(\tau\))$ in Projectile Motion with Linear Drag**
 
