@@ -25,9 +25,9 @@ For projectile motion with linear drag, the following equations govern the motio
    Solving for when \$( y = 0 \)$ yields an equation for total flight time that must be solved numerically.
 
 4. **Range of the Projectile**:
-   \$[R \approx R_{\text{vac}} \left( 1 - \frac{4}{3} \frac{V_{y0}}{\tau g} \right)]$
+   \$[R \approx R_{\text{vac}} \left( 1 - \frac{4}{3} \frac{V_{y0}}{\tau g} \right)\]$
 
-5. **Maximum Height**:
+6. **Maximum Height**:
    \$[H = \left( (V_{i} \sin\theta) + g\tau \right) \tau \left( 1 - e^{-T/\tau} \right) - g\tau T\]$
 
 **Time Constant (\$(\tau\))$ in Projectile Motion with Linear Drag**
