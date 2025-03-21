@@ -22,7 +22,7 @@ For projectile motion with linear drag, the following equations govern the motio
    \$[ y(t) = \left( v_{y0} + g\tau \right) \tau \left( 1 - e^{-t/\tau} \right) - g\tau t \]$
 
 3. **Time of Flight**:
-   Solving for when \$( y = 0 \)$ yields an equation for total flight time that must be solved numerically.
+   \$[T = \tau \ln{\left( \frac{V_{y0} + g\tau}{g\tau} \right)}\]$
 
 4. **Range of the Projectile**:
    \$[R \approx R_{\text{vac}} \left( 1 - \frac{4}{3} \frac{V_{y0}}{\tau g} \right)\]$
@@ -40,22 +40,24 @@ To also practice some C++ concepts, I decided to incorporate a user-defined libr
 
 ## Additional Notes and Tips
 
-- **Constraints on Diameter:**  
-  The formulas used in this simulation (the diameter), assume that drag is a small perturbation. In the sense that, the drag 
-  effects on on the spherical object are minor. For that reason, the diameter should be such that \$[\frac{4}{3} \frac{V_{y0} 
-  \tau}{g} < 1\]$. If the drag force is too strong (like for large diameters or very light objects), then air resistance 
-  dominates, and the small perturbation assumption breaks down.
+- **Constraints on Diameter:**
+  The formulas in this simulation assume drag is a small perturbation, meaning its effects on the spherical object are minor. For 
+  this to hold, the diameter must satisfy: \$[\frac{4}{3} \frac{V_{y0} \tau}{g} < 1\]$. If drag is too strong (e.g. large 
+  diameters or very light objects), air resistance dominates, breaking this assumption and yielding a negative range.
 
-- **Generalized Sphere Assumption:**  
-  The simulation assumes a generalized spherical projectile. This allows us to use a fixed drag coefficient (typically \$(C_d = 0.47\)$ for a sphere) and a simplified expression for the drag parameter:
-  \$[
-  \beta = 0.39 \rho C_d,
-  \]$
-  where \$(\rho\)$ is the air density (approximately \$(1.225 \, \text{kg/m}^3\)$ at sea level). This assumption simplifies the calculations and provides a baseline for comparison.
+- **Generalized Assumptions:**  
+  The simulation assumes a generalized fixed drag coefficient: typically \$(C_d = 0.47\)$ for a sphere and \$(C_d = 0.5\)$ for a 
+  missile. Hence, a simplified expression for the drag parameter: \$[\beta = 0.39 \rho C_d,\]$ where \$(\rho\)$ is the air 
+  density approximately \$(1.225 \, \text{kg/m}^3\)$ at sea level). This assumption simplifies the calculations and provides a 
+  baseline for comparison.
 
 - **Comparison with Vacuum Conditions:**  
-  One of the primary goals of this simulation is to illustrate how the presence of air resistance (drag) alters projectile motion compared to the ideal (vacuum) case. The differences in time of flight, maximum height, and range provide insight into the effects of drag.
+  One of the primary goals of this simulation is to illustrate how the presence of air resistance (drag) alters projectile motion 
+  compared to the ideal (vacuum) case. The differences in time of flight, maximum height, and range provide insight into the 
+  effects of drag.
 
 - **Purpose:**  
-  This program is intended to demonstrate the impact of drag on projectile motion. It shows the differences in motion parameters when drag is considered versus when it is neglected, serving as an educational tool rather than a high-precision predictive model.
+  One reason for making this programme, is to demonstrate the impact of drag on projectile motion: showing the difference in 
+ motion parameters when drag is considered versus when it's not. This programme is therefore to serve as an educational tool 
+ rather than a high-precision predictive model.
 
