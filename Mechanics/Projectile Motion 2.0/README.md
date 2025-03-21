@@ -40,15 +40,11 @@ To also practice some C++ concepts, I decided to incorporate a user-defined libr
 
 ## Additional Notes and Tips
 
-- **Diameter Constraints:**  
-  The formulas used in this simulation assume that drag is a small perturbation. In particular, the approximation for the range  
-  \$[ R \approx R_{\text{vac}} \left( 1 - \frac{4}{3}\frac{V_{y0}}{\tau g} \right)\]$
-  is only valid when
-  \$[\frac{4}{3}\frac{V_{y0}}{\tau g} < 1.\]$
-  Since the characteristic time is given by
-  \$[\tau = \frac{m}{\beta D},\]$
-  if the projectile's diameter \$(D\)$ is too large, \$(\tau\)$ becomes very small, and the approximation can yield non-physical 
-  (negative) ranges. Thus, the model is valid only for small perturbations.
+- **Constraints on Diameter:**  
+  The formulas used in this simulation (the diameter), assume that drag is a small perturbation. In the sense that, the drag 
+  effects on on the spherical object are minor. For that reason, the diameter should be such that \$[\frac{4}{3} \frac{V_{y0} 
+  \tau}{g} < 1\]$. If the drag force is too strong (like for large diameters or very light objects), then air resistance 
+  dominates, and the small perturbation assumption breaks down.
 
 - **Generalized Sphere Assumption:**  
   The simulation assumes a generalized spherical projectile. This allows us to use a fixed drag coefficient (typically \$(C_d = 0.47\)$ for a sphere) and a simplified expression for the drag parameter:
