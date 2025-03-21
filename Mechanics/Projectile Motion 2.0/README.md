@@ -48,7 +48,7 @@ To also practice some C++ concepts, I decided to incorporate a user-defined libr
 - **Generalized Assumptions:**  
   The simulation assumes a generalized fixed drag coefficient: typically \$(C_d = 0.47\)$ for a sphere and \$(C_d = 0.5\)$ for a 
   missile. Hence, a simplified expression for the drag parameter: \$[\beta = 0.39 \rho C_d,\]$ where \$(\rho\)$ is the air 
-  density approximately \$1.225 \, \text{kg/m}^3\)$ at sea level. This assumption simplifies the calculations and provides a 
+  density approximately \$1.225 \, \text{kg/m}^3\$ at sea level. This assumption simplifies the calculations and provides a 
   baseline for comparison.
 
 - **Comparison with Vacuum Conditions:**  
