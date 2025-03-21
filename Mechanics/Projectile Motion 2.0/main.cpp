@@ -43,7 +43,7 @@ int main(){
 		range(Vi, rad, tau);
 		
 	} else {
-		Cd = 0.5;
+		Cd = 0.29;
 		tau = mass/0.239;
 		
 		time(Vi, rad, tau);
