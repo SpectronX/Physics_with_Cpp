@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cmath>
-#include "Functions2.h"
+#include "functions.h"
 
 using namespace std;
 
@@ -36,14 +36,22 @@ int main(){
 		cout << "  - Diameter of projectile (D): ";
 		cin >> diameter;
 		Cd = 0.47;
-		tau = mass/(0.266 * diameter);
+		tau = mass/(0.224 * diameter);
+		
+		time(Vi, rad, tau);
+		max_height(Vi, rad, tau);
+		range(Vi, rad, tau);
+		
 	} else {
-
+		Cd = 0.5;
+		tau = mass/0.239;
+		
+		time(Vi, rad, tau);
+		max_height(Vi, rad, tau);
+		range(Vi, rad, tau);
 	}
 	
-	time(Vi, rad, tau);
-	max_height(Vi, rad, tau);
-	range(Vi, rad, tau);
+
 	
 	return 0;
 }
