@@ -44,7 +44,7 @@ int main(){
 		
 	} else {
 		Cd = 0.29;
-		tau = mass/0.239;
+		tau = mass/0.139;
 		
 		time(Vi, rad, tau);
 		max_height(Vi, rad, tau);
