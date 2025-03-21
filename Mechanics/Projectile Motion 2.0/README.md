@@ -31,7 +31,7 @@ For projectile motion with linear drag, the following equations govern the motio
    \$[H = \left( (V_{i} \sin\theta) + g\tau \right) \tau \left( 1 - e^{-T/\tau} \right) - g\tau T\]$
 
 ## Implementation
-To also practice some C++ concepts, I decided to incorporate a user-defined library for the calculations. The implementation consists of:
+To also practice some C++ concepts, I decided to incorporate a user-defined library for the calculations. WIth this, the files would have to compiled and linked together before the simulation can run. The implementation consists of:
 
 - A **source file (`.cpp`)** containing the function definitions.
 - A **header file (`.h`)** storing the function prototypes.
