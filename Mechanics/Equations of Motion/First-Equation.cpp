@@ -23,9 +23,8 @@ int main() {
     cout << " -------------------------------------------------------------------------------" << endl;
     cout << "|                  Exploring Newton's Equations of Motion                      |" << endl;
     cout << "|     Three fundamental and widely known equations in the world of Physics.    |" << endl;
+    cout << "|            Working with the first equation of motion (v = u + at)            |" << endl;
     cout << " -------------------------------------------------------------------------------\n" << endl; 
-
-    cout << "Let's explore the first equation of motion (v = u + at).\n" << endl;
 
     cout << "Select the parameter to calculate for: \n";
     cout << "1. Final velocity.\n"
